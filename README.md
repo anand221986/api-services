@@ -28,3 +28,10 @@ The application supports **user login** with the following features:
 ### Login Endpoint (Backend)
 ```http
 POST /auth/login
+
+{
+  "email": "admin@gmail.com",
+  "password": "india@12345"
+}
+
+
